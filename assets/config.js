@@ -15,7 +15,7 @@ let config = {
     },
     {
       "Title": "Twitter",
-      "URL": "https://x.com/notsheepdog",
+      "URL": "https://x.com/ramleydev",
       "icon_classes": "fas fa-link"
     }
   ]
