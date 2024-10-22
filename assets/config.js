@@ -1,7 +1,7 @@
 let config = {
   "Title": "Ramley - Game Dev",
   "Name": "Ramley",
-  "Description": "Game Developer - Formally known as Sheepdog",
+  "Description": "Game Developer - Formerly known as Sheepdog",
   "links": [
     {
       "Title": "Portfolio",
