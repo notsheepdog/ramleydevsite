@@ -5,7 +5,7 @@ let config = {
   "links": [
     {
       "Title": "Portfolio",
-      "URL": "https://sheepshouse.notion.site/Games-by-J-F-Ramley-c03c8f8f4f0c44b9a756edba9a851bfc",
+      "URL": "https://ramley.notion.site/Games-by-J-F-Ramley-c03c8f8f4f0c44b9a756edba9a851bfc",
       "icon_classes": "fas fa-link"
     },
     {
