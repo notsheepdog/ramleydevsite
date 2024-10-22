@@ -23,14 +23,9 @@
         rel="stylesheet">
 
     <!--Meta Data-->
-    <title></title>
-    <meta id="title-meta" name="title" content="Your Name-Links">
-    <meta id="description-meta" name="description"
-        content="Your Description">
-
-    <meta name="keywords"
-        content="">
-
+    <title id="title-meta"></title>
+    <meta id="description-meta" name="description" content="">
+    <meta name="keywords" content="">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -50,7 +45,7 @@
     <div class="profile-name"><b id="name_component"></b></div>
 
     <!-- Profile about-->
-    <div class="profile-about"><b id="description_component">Your Description</b></div>
+    <div class="profile-about"><b id="description_component"></b></div>
 
     <!-- Links-->
     <div id="link-container">
@@ -59,38 +54,21 @@
 
 
     <footer>
-        <!-- <div>
-            <div style="text-align: center;">
-                <a href="https://github.com/harindulk" target="_blank" class="hover , links-footer">
-                    <i class="fab fa-github"></i></a>
-
-                <a href="https://www.linkedin.com/in/harindulk/" target="_blank" class="hover , links-footer">
-                    <i class="fab fa-linkedin"></i></a>
-
-                <a href="https://twitter.com/Harindu_Fonseka" target="_blank" class="hover , links-footer">
-                    <i class="fab fa-twitter"></i></a>
-
-                <a href="https://www.youtube.com/channel/UCRyQGxzCgFb5wmsp1XAlWpQ" target="_blank"
-                    class="hover , links-footer">
-                    <i class="fab fa-youtube"></i></a>
-
-                <a href="mailto:Harindu.dev@outlook.com" class="hover , links-footer">
-                    <i class="fas fa-envelope"></i></a>
-            </div>
-        </div> -->
-
-        <!--bottom text-->
-        <!-- <a href="http://www.harindu.dev" class="link-hide">
-            <div class="bottom-text">Harindulk
-                <i class="fas fa-times"></i>
-                Links
-            </div>
-        </a> -->
+        <!-- Add any footer content here if needed -->
     </footer>
 
     <!--Javascript-->
     <script src="assets/js/components.js"></script>
     <script src="assets/config.js"></script>
+    <script>
+        // Populate the title and meta description
+        document.getElementById("title-meta").innerText = config.Title;
+        document.getElementById("description-meta").setAttribute("content", config.Description);
+        
+        // Populate name and description
+        document.getElementById("name_component").innerText = config.Name;
+        document.getElementById("description_component").innerText = config.Description;
+    </script>
     <script src="assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
