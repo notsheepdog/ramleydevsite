@@ -7,7 +7,7 @@ description_meta = document.getElementById("description-meta")
 title_meta = document.getElementById("title-meta")
 
 
-name_component.innerText = config.Name
+//name_component.innerText = config.Name
 description_component.innerText = config.Description
 document.title = config.Title
 description_meta = config.Description

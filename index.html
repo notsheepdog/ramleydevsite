@@ -38,11 +38,14 @@
 
 <body>
 
+    <!-- Text logo -->
+    <img src="assets/img/RamleyTextLogo.png" alt="RAMLEY" class="centered-image">
+
     <!-- Profile picture-->
-    <img src="assets/img/PashaHeadshot.png" alt="profile picture" class="profile-picture">
+    <!-- <img src="assets/img/PashaHeadshot.png" alt="profile picture" class="profile-picture"> -->
 
     <!-- Profile name-->
-    <div class="profile-name"><b id="name_component"></b></div>
+    <!-- <div class="profile-name"><b id="name_component"></b></div> -->
 
     <!-- Profile about-->
     <div class="profile-about"><b id="description_component"></b></div>
@@ -60,15 +63,6 @@
     <!--Javascript-->
     <script src="assets/js/components.js"></script>
     <script src="assets/config.js"></script>
-    <script>
-        // Populate the title and meta description
-        document.getElementById("title-meta").innerText = config.Title;
-        document.getElementById("description-meta").setAttribute("content", config.Description);
-        
-        // Populate name and description
-        document.getElementById("name_component").innerText = config.Name;
-        document.getElementById("description_component").innerText = config.Description;
-    </script>
     <script src="assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

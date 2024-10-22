@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(-45deg, #d35ecd, #5aad45, #23a6d5, #3a0eb3);
+  background: linear-gradient(0deg, #334548, #1b2034);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -18,8 +18,12 @@ body {
   }
 }
 
-img {
-  border-radius: 50%;
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
 }
 
 .profile-picture {
@@ -29,6 +33,7 @@ img {
   margin-top: 5%;
   height: auto;
   max-width: 100px;
+  border-radius: 50%;
 }
 
 .profile-name {
@@ -51,7 +56,7 @@ img {
 
 .links {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 20px;
   border: 0.5px solid rgb(255, 255, 255);
   border-width: 1px;
