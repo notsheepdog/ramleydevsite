@@ -14,8 +14,13 @@ let config = {
       "icon_classes": "fas fa-link"
     },
     {
-      "Title": "Twitter",
-      "URL": "https://x.com/ramleydev",
+      "Title": "Instagram",
+      "URL": "https://www.instagram.com/ramleydev/",
+      "icon_classes": "fas fa-link"
+    },
+    {
+      "Title": "Bluesky",
+      "URL": "https://bsky.app/profile/ramley.bsky.social",
       "icon_classes": "fas fa-link"
     }
   ]
