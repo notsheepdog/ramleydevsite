@@ -24,6 +24,11 @@ let config = {
       "icon_classes": "fas fa-link"
     },
     {
+      "Title": "TikTok",
+      "URL": "https://www.tiktok.com/@ramleydev",
+      "icon_classes": "fas fa-link"
+    },
+    {
       "Title": "Bluesky",
       "URL": "https://bsky.app/profile/ramley.bsky.social",
       "icon_classes": "fas fa-link"
