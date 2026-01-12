@@ -1,7 +1,7 @@
 let config = {
-  "Title": "Ramley - Game Dev",
+  "Title": "Ramley - Game Developer",
   "Name": "Ramley",
-  "Description": "Game Developer - Formerly known as Sheepdog",
+  "Description": "Game Developer",
   "links": [
     {
       "Title": "Wishlist Heretic Red on Steam",
@@ -9,8 +9,8 @@ let config = {
       "icon_classes": "fas fa-link"
     },
     {
-      "Title": "Portfolio",
-      "URL": "https://ramley.notion.site/Games-by-J-F-Ramley-c03c8f8f4f0c44b9a756edba9a851bfc",
+      "Title": "Join the Heretic Red Discord",
+      "URL": "https://discord.gg/f7P9ek8ExH",
       "icon_classes": "fas fa-link"
     },
     {
